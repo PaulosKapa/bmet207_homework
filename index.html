@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaPipe Pose Basic Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>MediaPipe Pose Basic Example</h1>
+    <div class="container">
+        <video id="videoElement" autoplay></video>
+        <canvas id="canvasElement"></canvas>
+        <button id ="sButton">Start</button>
+        <button id ="spButton">Stop</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose/pose.js" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
